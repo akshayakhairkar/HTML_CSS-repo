@@ -1,1 +1,1 @@
-Starting HTMLand CSS.
+Starting HTML and CSS.
