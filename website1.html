@@ -1,11 +1,15 @@
 <style>
-    a{
+    .amazon-link{
         color: rgb(0, 113, 133);
+    }
+
+    .amazon-link:hover{
+        color: rgb(199, 81, 31);
     }
 
     .nike{
        font-weight: bold;
-       font-size: large;
+       font-size: 24px;
     }
 
     .stock{
@@ -21,6 +25,15 @@
         border-radius: 20px;
         font-weight: bold;
         margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .add-button:hover{
+        background-color: rgb(247, 202, 0);
+    }
+
+    .add-button:hover{
+        opacity: 0.5;
     }
 
     .buy-button{
@@ -28,12 +41,20 @@
         height: 30px;
         width: 120px;
         border: none;
-        border-radius: 20px;
-        font-weight: bold;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .buy-button:hover{
+        background-color: rgb(250, 137, 0);
+    }
+
+    .buy-button:active{
+        opacity: 0.5;
     }
 </style>
 
-<a href="Amazon.com">
+<a class="amazon-link" href="Amazon.com">
     Back to Amazon
     </a>
     

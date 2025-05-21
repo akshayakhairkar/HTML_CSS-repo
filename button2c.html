@@ -1,16 +1,23 @@
 <!-- GitHub -->
  <style>
-   button{
+   .github-button{
     background-color: rgb(46, 164, 79);
     color: white;
     height: 30px;
     width: 80px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+   }
+
+   .github-button:hover{
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
    }
  </style>
 
- <button>
+ <button class="github-button">
     Sign up
  </button>
